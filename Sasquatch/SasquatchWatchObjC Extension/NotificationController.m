@@ -8,7 +8,7 @@
 
 - (instancetype)init {
   self = [super init];
-  if (self){
+  if (self) {
 
     // Initialize variables here.
     // Configure interface objects here.
@@ -29,17 +29,16 @@
 }
 
 /*
-- (void)didReceiveNotification:(UNNotification *)notification withCompletion:(void(^)(WKUserNotificationInterfaceType interface)) completionHandler {
+- (void)didReceiveNotification:(UNNotification *)notification
+withCompletion:(void(^)(WKUserNotificationInterfaceType interface))
+completionHandler {
     // This method is called when a notification needs to be presented.
     // Implement it if you use a dynamic notification interface.
     // Populate your dynamic notification interface as quickly as possible.
     //
-    // After populating your dynamic notification interface call the completion block.
-    completionHandler(WKUserNotificationInterfaceTypeCustom);
+    // After populating your dynamic notification interface call the completion
+block. completionHandler(WKUserNotificationInterfaceTypeCustom);
 }
 */
 
 @end
-
-
-

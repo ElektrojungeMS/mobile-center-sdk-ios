@@ -17,15 +17,15 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>${VERSION_STRING}</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>${BUILD_NUMBER}</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.microsoft.azure.mobile.sasquatchobjc.watchkitapp</string>
+			<string>com.microsoft.appcenter.sasquatchobjc.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>

@@ -1,7 +1,7 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
+**/IDEWorkspaceChecks.plist
 
 # App Code
 **/.idea/
@@ -10,7 +10,7 @@
 ## Build generated
 build/
 DerivedData/
-MobileCenter-SDK-iOS/
+AppCenter-SDK-Apple/
 Documentation/**/Generated
 
 ## Various settings
@@ -25,6 +25,7 @@ Documentation/**/Generated
 xcuserdata/
 
 ## Other
+.build_config
 *.moved-aside
 *.xcuserstate
 
@@ -69,3 +70,6 @@ iOSInjectionProject/
 # Mac
 #
 .DS_Store
+
+Localization/*.zip
+Localization/Unzip/
